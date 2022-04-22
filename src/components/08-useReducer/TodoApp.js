@@ -41,10 +41,10 @@ export const TodoApp = () => {
             <h1>To do App</h1>
             <hr/> 
             <div className='row'>
-                <div className='col-7'>
+                <div className='col-md-7'>
                     <TodoList todos={todos} handleDelete={handleDelete} handleToggle={handleToggle}/>
                 </div>
-                <div className='col-5'>
+                <div className='col-md-5'>
                     <TodoAdd handleAdd = {handleAdd} />
                 </div>
             </div>
